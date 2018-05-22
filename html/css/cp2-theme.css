@@ -1,0 +1,265 @@
+/* 
+* Arquivo - cp2-theme.css 
+* Rev. 02.2017
+*/
+
+/* Geral */
+@font-face
+{
+  font-family:'OpenSans-Regular';
+  src: url('../fonts/OpenSans-Regular.eot');
+  src: local('?'),
+         url('../fonts/OpenSans-Regular.woff') format('woff'), url('../fonts/OpenSans-Regular.ttf') format('truetype');
+}
+body
+{
+    font-family: "OpenSans-Regular", Arial;
+}
+label, h1, h2, h3, h4, h5, h6, p, table, input, td, th
+{
+    font-family: "OpenSans-Regular", Arial;    
+}
+label, td, th
+{
+    font-weight: normal;
+}
+main
+{    
+    padding-top: 0.5em;        
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;   
+}
+.caixa
+{
+    border: 2px solid red;
+}
+
+/* Titulos */
+
+h2
+{    
+    color: #2F4F4F;        
+    font-size: 20px;
+    font-weight: bold;    
+}
+h3
+{
+    color: #2F4F4F;     
+}
+h4
+{ 
+    margin-bottom: 1em;
+    color: #696969; 
+    color: #2F4F4F;           
+    font-size: 1.2em;     
+    padding: 0.5em;           
+    border: 1px solid #e7e7e7;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+}
+
+/* Cores */
+
+.vermelho{
+    color: #a94442;
+}
+.verde{
+    color: #3c763d;
+}
+.azul{
+    color: #31708f;    
+}
+.amarelo{
+    color: #8a6d3b;
+}
+.preto{
+    color: black;
+}
+.branco{
+    color: white;
+}
+.cinza{
+    color:#808080;
+}
+.text-error-align{    
+    margin-left: 3em;        
+}
+
+/*  Ajustes no NavBar */
+.navbar{
+     margin-bottom: 0;
+}
+.navbar-default .navbar-brand {
+    color: #337ab7
+}
+.navbar-default:hover .navbar-brand:hover {
+    color: #337ab7
+}
+.navbar-brand {
+    padding: 6px 15px;
+}
+.brand-subtitle{
+    font-size: 10px;
+}
+
+.dropdown-toggle-efect
+{    
+    border: 1px solid #dcdcdc;
+    border-radius: 3px;
+    background-color: #ffffff;
+}
+/* */
+.dropdown-usuario-admin-icon{
+    /*color:#333333;*/
+    /*color: #a94442;*/
+}
+.dropdown-usuario-admin-font{
+    color:gray;
+    font-size:1rem;
+}
+.dropdown-toggle-usuario{
+    margin-right: 10px;
+}
+/* Menu Lateral */
+.icone-area-de-trabalho{
+    background: #dcdcdc;
+    padding: 0.8em;
+    text-align: center;        
+}
+.menu-home
+{    
+    text-align: center;
+    font-size: 1.5rem;
+    color: black;
+}
+.menu-home, a:hover
+{
+    text-decoration: none;    
+}
+.elementos-menu-lateral{
+    margin-left: 0.5rem;    
+    font-size: 1em;
+    color: DimGray ;
+}
+.elementos-submenu-lateral{
+    margin-left: 1em;    
+    font-size: 0.9em;
+    color: DimGray ;            
+}
+
+
+/* Add sombras aos panel */
+.panel-primary,
+.panel-green,
+.panel-yellow,
+.panel-red
+{         
+    box-shadow: 10px 10px 5px #888888;
+}
+
+/*
+.pager
+{    
+    padding-bottom: 1.5em;
+    border-bottom: 1px dotted LightGray;
+}
+*/
+
+.footer
+{    
+    font-size: 0.8em;
+    color: gray;
+    border-top: 1px dotted LightGray;    
+}
+/* 
+ * App-Tables-Theme
+ * Rev. 1.0
+ */
+
+
+td, th
+{
+    text-align: center;
+}
+
+/* Ajuste breadcrumb */
+.breadcrumb
+{
+    margin-top: 10px;
+    /*background-color: #286090;*/
+    background-color: #7cc8b2;
+    color: white;
+
+}
+.breadcrumb-title 
+{    
+    padding-bottom: 1rem;
+    border-bottom: 1px dotted LightGray;    
+    text-align: left;
+    margin-top: 0.2em;
+    padding-left: 0;    
+    list-style: none;
+    font-family: "Open Sans", sans-serif;
+}
+
+/* Classe usada para formatar legenda que está sobre as tables */
+.legenda 
+{
+    height: 40px;
+    text-align: right;
+    color: #808080;
+    margin-right: 1rem;
+    font-size: 1.2rem;        
+}
+
+form 
+{   
+    margin: 2px 2px;
+}
+
+/* Ajuste dos itens do botão opções */
+.dropdown-toggle{
+    font-size: 0.8em;
+    padding: 0.3em;
+}
+.dropdown-icone{
+    margin-left: 10px;
+    margin-right: 8px;
+}
+.btn-link{
+    /*
+    width: 100%;
+    text-align:left;
+    */
+    text-align:center;
+}
+
+.btn-link:focus, .btn-link:hover {    
+    text-decoration: none;    
+    background-color: #f0f0f0;    
+}
+
+/* views de impressoes */
+
+iframe
+{
+    display: none;
+}
+
+.dropdown-menu2 
+{
+    min-width: 120px;    
+    left: -30px;
+}
+
+.form-senha
+{
+    margin-top: 5em;
+}
+
+#usuario-top
+{
+    margin-top:2em;
+}
